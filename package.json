@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "vercel-build":"echo Hello"
-  }, 
+    "vercel-build": "echo Hello"
+  },
   "dependencies": {
-    "simple-update-notifier": "^2.5.0",
-    "semver": "^7.3.2",
     "@onesignal/node-onesignal": "^1.0.0-beta4",
     "@sendgrid/mail": "^7.7.0",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
@@ -43,6 +41,8 @@
     "passport-local-mongoose": "^6.1.0",
     "react": "^18.2.0",
     "request": "^2.88.2",
+    "semver": "^7.5.4",
+    "simple-update-notifier": "^2.0.0",
     "socket.io": "^2.4.1",
     "stripe": "^9.11.0",
     "striptags": "^3.2.0",
