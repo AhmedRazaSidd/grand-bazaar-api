@@ -5,8 +5,10 @@
   "scripts": {
     "start": "nodemon ./bin/www",
     "vercel-build":"echo Hello"
-  },
+  }, 
   "dependencies": {
+    "simple-update-notifier": "^2.5.0",
+    "semver": "^7.3.2",
     "@onesignal/node-onesignal": "^1.0.0-beta4",
     "@sendgrid/mail": "^7.7.0",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
