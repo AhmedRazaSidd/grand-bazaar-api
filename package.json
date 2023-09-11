@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+     "dev": "next dev",          
+    "build": "next build",
+    "start": "node index.js" 
     "vercel-build": "echo Hello"
   },
   "dependencies": {
